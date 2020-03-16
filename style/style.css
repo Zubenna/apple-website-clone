@@ -10,6 +10,10 @@
     height: 68vh;
 } 
 
+header ul a{
+    text-decoration: none;
+}
+
 .nav-menu ul{
     display: flex;
     height: 2.5rem;
@@ -26,6 +30,13 @@
     padding-top: .54rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
+}
+
+.nav-menu ul li:hover {
+    background-color: #5e5e5e;
+}
+.nav-menu ul .last-item:hover{
+    background-color: transparent;
 }
 
 .nav-menu ul li:last-child{
@@ -48,16 +59,33 @@ input[type = text]{
     position: relative;
     right: 5.5rem;  
     color: #fff;
-    font-size: 0.8rem;
-    
+    font-size: 0.8rem; 
+}
+.call-to-action{
+    text-align: center;
+    color: #fff;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    background: url("https://web.archive.org/web/20140228160945im_/http://images.apple.com/home/images/your_verse_title_large.png") 50% 10% no-repeat;
 }
 
-section ul {
+.page-highlight h2{
+    padding-top: 8rem;
+    padding-bottom: 1.4rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.page-highlight a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.product-sample ul {
     display: flex;
     position: absolute;
     top: 80vh;
 }
-section ul img {
+.product-sample ul img {
     width: 100%;
 }
 footer p{
@@ -70,14 +98,13 @@ footer {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    margin-top: 41%;
+    margin-top: 27%;
     width: 100%;
-    background-color: blueviolet;
 }
+
 nav .footer-nav {
     display: flex;
     justify-content: space-evenly;
-
 }  
 
 nav .footer-nav li {
@@ -86,13 +113,27 @@ nav .footer-nav li {
     margin-right: 0.4rem;
     align-content: center;
 }
- ul a {
+
+ footer ul a,
+ footer a {
      text-decoration: none;
+     color: #0099cc;
+ }
+
+ footer span {
+      margin-right: 0.4rem;
+      border-right: 1px solid #5e5e5e;
+      padding-right: 0.4rem;
+ }
+
+ footer ul a:hover, footer a:hover {
+     text-decoration: underline;  
  }
 
  ul li{
      list-style-type: none;
  }
+
 nav ul img{
     width: 1.1rem;
     height: 0.9rem;
