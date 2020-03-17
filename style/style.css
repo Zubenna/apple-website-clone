@@ -27,10 +27,17 @@ header ul a {
 .nav-menu ul li {
   border-right: 1px solid #666; 
   width: 7.49rem;
-  padding-top: .54rem;
+  padding-top: 0.54rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
 }
+
+nav .footer-nav li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  margin-right: 0.4rem;
+  align-content: center;
+  }
 
 .nav-menu ul li:hover {
   background-color: #5e5e5e;
@@ -43,7 +50,13 @@ header ul a {
 .nav-menu ul li:last-child {
   border-right: none;
 }
-  
+ 
+.page-highlight a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
 .nav-menu ul a {
   color: #fff;
 }
@@ -78,18 +91,18 @@ input[type = text] {
   line-height: 2rem;
 }
 
-.page-highlight a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.3rem;
-}
-
 .product-sample ul {
   display: flex;
   position: absolute;
   top: 80vh;
 }
 
+nav ul img {
+  width: 1.1rem;
+  height: 0.9rem;
+  border-radius: 50%;
+}
+  
 .product-sample ul img {
   width: 100%;
 }
@@ -117,13 +130,6 @@ nav .footer-nav {
   justify-content: space-evenly;
 }  
 
-nav .footer-nav li {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.7rem;
-  margin-right: 0.4rem;
-  align-content: center;
-}
-
  footer ul a,
  footer a {
   text-decoration: none;
@@ -145,8 +151,3 @@ nav .footer-nav li {
   list-style-type: none;
  }
 
-nav ul img {
-  width: 1.1rem;
-  height: 0.9rem;
-  border-radius: 50%;
-}
