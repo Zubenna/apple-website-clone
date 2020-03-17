@@ -88,6 +88,9 @@ input[type = text]{
 .product-sample ul img {
     width: 100%;
 }
+.product-types {
+    display: none;
+}
 footer p{
     font-size: 0.8rem;
     font-family: Arial, Helvetica, sans-serif;
