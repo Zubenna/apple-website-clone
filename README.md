@@ -19,7 +19,7 @@ This project is a clone of the [apple.com](https://web.archive.org/web/201402281
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Zubenna/new-york-times-page/9a7db10c45e2b7aa939b83e16d177acfbd52844e/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/Zubenna/apple-website-clone/fd80ff4a189f908e8d9d9b3581374875b2899395/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs

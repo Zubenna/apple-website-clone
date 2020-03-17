@@ -112,7 +112,7 @@ nav ul img {
   height: 0.9rem;
   border-radius: 50%;
 }
-  
+
 .product-sample ul img {
   width: 100%;
 }
@@ -146,7 +146,7 @@ footer span {
   padding-right: 0.4rem;
 }
 
-footer ul a:hover,
-footer a:hover {
+footer a:hover,
+footer ul a:hover {
   text-decoration: underline;
 }
