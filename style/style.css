@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   width: 100%;
   background: url(https://web.archive.org/web/20140228122211im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
-  background-size: 90rem 82.18rem;
+  background-size: 90rem 83rem;
   height: 34rem;
 }
 
@@ -50,7 +50,7 @@ ul li {
 .nav-menu ul {
   display: flex;
   height: 2.2rem;
-  width: 76%;
+  max-width: 50rem;
   margin: 5.2rem auto 0 auto;
   border-radius: 0.3rem;
   text-align: center;
@@ -117,12 +117,13 @@ input[type=text] {
 }
 
 .product-sample {
-  margin-top: 9rem;
   width: 100%;
+  margin-top: 8.8rem;
 }
 
 .product-sample ul {
   display: flex;
+  justify-content: center;
 }
 
 .product-sample ul img {
@@ -140,9 +141,9 @@ footer p {
 }
 
 footer {
-  padding: 1.5rem 7rem;
+  padding: 1.5rem 3.5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 
