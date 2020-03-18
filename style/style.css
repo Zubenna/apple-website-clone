@@ -1,0 +1,168 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: url(https://web.archive.org/web/20140228122211im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  background-size: 90rem 83rem;
+  height: 34rem;
+}
+
+footer a,
+footer ul a {
+  text-decoration: none;
+  color: #09c;
+}
+
+header ul a {
+  text-decoration: none;
+}
+
+.footer-nav a {
+  border-right: 0.07rem solid #5e5e5e;
+  padding-right: 0.3rem;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.watch-film a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+
+.footer-nav li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  margin-right: 0.3rem;
+  align-content: center;
+}
+
+.nav-menu ul {
+  display: flex;
+  height: 2.2rem;
+  max-width: 50rem;
+  margin: 5.2rem auto 0 auto;
+  border-radius: 0.3rem;
+  text-align: center;
+  background-image: linear-gradient(#808080 50%, #5e5e5e 30%, #808080 90%);
+}
+
+.nav-menu ul li {
+  border-right: 1px solid #666;
+  width: 7.49rem;
+  padding-top: 0.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+footer ul img {
+  width: 1.1rem;
+  height: 0.9rem;
+  border-radius: 50%;
+}
+
+.nav-menu ul li:hover {
+  background-color: #5e5e5e;
+}
+
+.nav-menu ul .last-item:hover {
+  background-color: transparent;
+}
+
+.nav-menu ul li:last-child {
+  border-right: none;
+}
+
+.nav-menu ul a {
+  color: #fff;
+}
+
+input[type=text] {
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 0.8rem;
+  border: 2px solid #5e5e5e;
+  background: inherit;
+  margin-left: 0.15rem;
+}
+
+.fa-search {
+  position: relative;
+  bottom: 1.48rem;
+  right: 2rem;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.page-highlight {
+  text-align: center;
+}
+
+.page-highlight h1 {
+  margin-top: 1rem;
+}
+
+.page-highlight h2 {
+  margin-bottom: 1rem;
+}
+
+.product-sample {
+  width: 100%;
+  margin-top: 8.8rem;
+}
+
+.product-sample ul {
+  display: flex;
+  justify-content: center;
+}
+
+.product-sample ul img {
+  width: 100%;
+  height: 100%;
+}
+
+.product-sample h2 {
+  display: none;
+}
+
+footer p {
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  padding: 1.5rem 3.5rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+footer span {
+  margin-right: 0.4rem;
+  border-right: 1px solid #5e5e5e;
+  padding-right: 0.4rem;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer a:hover,
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+.footer-nav .flag {
+  border-right: none;
+}
