@@ -23,17 +23,14 @@ This project is a clone of the [apple.com](https://web.archive.org/web/201402281
 - CSS Flex box
 
 ## Live Demo
-[Live Demo Link](https://rawcdn.githack.com/Zubenna/apple-website-clone/fd80ff4a189f908e8d9d9b3581374875b2899395/index.html) hosted on [githack](https://raw.githack.com)
-
+[Live Demo Link](https://rawcdn.githack.com/Zubenna/apple-website-clone/6142f18c97088374b538c123457c79e83bfc7fbf/index.html) hosted on [githack](https://raw.githack.com)
 
 ## CDNs
 - https://fontawesome.com/icons
 
-
 ## Steps For Installation
 - After cloning this repo, git clone [repo](https://github.com/Zubenna/apple-website-clone.git), cd into apple-website-clone.
 - Open the index.html file in your favourite browser, and that's it!!!
-
 
 ## Author
 👤 **Author**
