@@ -1,10 +1,10 @@
 
-* { 
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
- 
+
 body {
   display: flex;
   flex-direction: column;
@@ -12,6 +12,39 @@ body {
   background: url(https://web.archive.org/web/20140228122211im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
   background-size: 90rem 82.18rem;
   height: 34rem;
+}
+
+footer a,
+footer ul a {
+  text-decoration: none;
+  color: #09c;
+}
+
+.footer-nav a {
+  border-right: 0.07rem solid #5e5e5e;
+  padding-right: 0.3rem;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+header ul a {
+  text-decoration: none;
+}
+
+.watch-film a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+
+.footer-nav li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  margin-right: 0.3rem;
+  align-content: center;
 }
 
 .nav-menu ul {
@@ -32,8 +65,10 @@ body {
   font-size: 1.2rem;
 }
 
-ul li {
-  list-style-type: none;
+footer ul img {
+  width: 1.1rem;
+  height: 0.9rem;
+  border-radius: 50%;
 }
 
 .nav-menu ul li:hover {
@@ -69,10 +104,6 @@ input[type=text] {
   font-size: 0.8rem;
 }
 
-header ul a {
-  text-decoration: none;
-}
-
 .page-highlight {
   text-align: center;
 }
@@ -86,15 +117,8 @@ header ul a {
 }
 
 .product-sample {
-  margin-top: 9rem; 
+  margin-top: 9rem;
   width: 100%;
-}
-
-.watch-film a {
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: #fff;
-  letter-spacing: 0.1rem;
 }
 
 .product-sample ul {
@@ -136,31 +160,8 @@ footer span {
 footer a:hover,
 footer ul a:hover {
   text-decoration: underline;
-} 
-.footer-nav a {
-  border-right: 0.07rem solid #5e5e5e;
-  padding-right: 0.3rem; 
 }
 
 .footer-nav .flag {
   border-right: none;
-}
-
-.footer-nav li {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.7rem;
-  margin-right: 0.3rem;
-  align-content: center;
-}
-
-footer ul img {
-  width: 1.1rem;
-  height: 0.9rem;
-  border-radius: 50%;
-}
-
-footer a,
-footer ul a {
-  text-decoration: none;
-  color: #09c;
 }
